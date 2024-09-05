@@ -1,0 +1,59 @@
+.header {
+  background-color: #BA637C;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;                
+  position: fixed;            /* Fix the header to the top */
+  top: 0;                    
+  left: 0;                    
+  z-index: 1000;              /* Ensure it stays above other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Space between menu items */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.menu-item a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  right: 50%;
+  
+}
+
+.logo-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+}
+
+.logo {
+  width: 55px; /* Adjust as needed */
+  height: auto;
+}

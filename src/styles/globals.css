@@ -1,3 +1,20 @@
-body{
-  background-color: #993B57;
+
+body {
+  background-color: #993B57; /* Dark pink background */
+  display: flex;
+  justify-content: center; /* Horizontally center the box */
+  align-items: center;     /* Vertically center the box */
+  height: 100vh;           /* Full viewport height to center vertically */
 }
+
+/* Light pink box in the center */
+.center-box {
+  background-color: #FBB4C9; /* Light pink box */
+  padding: 40px;
+  border-radius: 10px;
+  position: fixed;
+  width: 50%;              /* You can adjust the width */
+  height: 794px;
+  text-align: center;
+}
+

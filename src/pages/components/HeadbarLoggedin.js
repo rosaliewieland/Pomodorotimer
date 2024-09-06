@@ -1,8 +1,9 @@
-// components/Headbar.js
+
 import React from 'react';
 import styles from '../../styles/Headbar.module.css'; 
 import Settingsbutton from './Settingsbutton';
 import Loginbutton from './LoginButton';
+import Statisticsbutton from './Statisticsbutton';
 
 const Headbar = () => {
   return (
@@ -16,6 +17,7 @@ const Headbar = () => {
 
       <div className={styles['menu-container']}>
         <Settingsbutton />
+        <Statisticsbutton/>
         <Loginbutton />
       </div>
     </div>

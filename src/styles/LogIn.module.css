@@ -1,0 +1,23 @@
+.right-button-container{
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #7A1145; 
+    border-radius: 80px;
+    padding: 10px ; 
+    color: white;
+    text-decoration: none;
+    width: 120px;
+    height: 35px;
+    justify-content: space-between;
+
+  }
+  
+  .button-wrapper:hover {
+    background-color: #923061;
+  }

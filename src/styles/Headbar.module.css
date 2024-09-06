@@ -13,36 +13,35 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  
+}
+
 .nav {
   display: flex;
 }
 
-.menu {
-  list-style: none;
+.menu-container {
   display: flex;
-  gap: 20px; /* Space between menu items */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  justify-content: space-between; /* Distribute space between buttons */
+  width: 97%; /* Ensure the container takes up full width */
 }
 
-.menu-item a {
-  color: white;
-  text-decoration: none;
-  padding: 20px;
-  transition: background-color 0.3s;
-}
 
-.menu-item a:hover {
-  background-color: #555;
-  border-radius: 4px;
-}
+
 
 .logo-container {
   display: flex;
   align-items: center;
-  height: 30px;
-  right: 50%;
-  
+  margin-left: auto; /* Remove the fixed margin */
+  margin-right: auto; /* Center the container */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo-button {
@@ -50,10 +49,27 @@
   border: none;
   cursor: pointer;
   padding: 0;
-
 }
 
 .logo {
-  width: 55px; /* Adjust as needed */
+  width: 10vw; /* Use viewport width for responsive scaling */
+  max-width: 50px; /* Set a maximum width */
   height: auto;
+  margin-top: -20%;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .logo {
+    width: 15vw; 
+    margin-left: 100%;
+  }
+}
+
+/* Media Query for very small screens */
+@media (max-width: 480px) {
+  .logo {
+    width: 30vw; 
+    margin-left: 200%;
+  }
 }

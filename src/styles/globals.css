@@ -5,6 +5,10 @@ body {
   justify-content: center; /* Horizontally center the box */
   align-items: center;     /* Vertically center the box */
   height: 100vh;           /* Full viewport height to center vertically */
+  font-family: 'Inter';
+  font-size: 22px;
+
+
 }
 
 /* Light pink box in the center */

@@ -7,8 +7,8 @@ const SettingsPage = () => {
     <section id='settings'>
 
     <Headbar></Headbar>
-    <div>
-      <h1>settings</h1>
+    <div className='center-box'>
+      <h1>Settings</h1>
       
     </div>
     </section>

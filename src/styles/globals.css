@@ -1,24 +1,26 @@
+body { background-color: #993B57; /* Dark pink background */ 
+display: flex; justify-content: center; /* Horizontally center the box */ 
+align-items: center; /* Vertically center the box */
+height: 100vh; /* Full viewport height to center vertically */ 
+margin: 0; /* Remove default margin */ 
+font-family: 'Inter'; 
+font-size: 22px; 
+overflow: hidden; /* Prevent scrollbars if box exceeds viewport */ } 
 
-body {
-  background-color: #993B57; /* Dark pink background */
-  display: flex;
-  justify-content: center; /* Horizontally center the box */
-  align-items: center;     /* Vertically center the box */
-  height: 100vh;           /* Full viewport height to center vertically */
-  font-family: 'Inter';
-  font-size: 22px;
-
-
-}
-
-/* Light pink box in the center */
-.center-box {
-  background-color: #FBB4C9; /* Light pink box */
-  padding: 40px;
-  border-radius: 10px;
-  position: fixed;
-  width: 50%;              /* You can adjust the width */
-  height: 794px;
+.center-box { 
+  background-color: #FBB4C9; /* Light pink box */ 
+  border-radius: 10px; 
+  width: 800px; /* Fixed width for consistency */ 
+  max-width: 90%; /* Ensure it doesn't exceed viewport width */ 
+  height: 500px; 
   text-align: center;
-}
-
+  color: #993B57; 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25); /* Optional shadow for effect */ 
+  display: flex; /* Center content inside the box if needed */ 
+  align-items: flex-start; /* Align content at the top inside */ 
+  justify-content: center; /* Center content horizontally inside */ 
+  margin-left: 40px; 
+  padding-top: 20px;
+} 
+  
+ 

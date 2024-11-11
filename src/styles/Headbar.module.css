@@ -42,6 +42,8 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  top: 8px
+  
 }
 
 .logo-button {
@@ -49,6 +51,7 @@
   border: none;
   cursor: pointer;
   padding: 0;
+  
 }
 
 .logo {

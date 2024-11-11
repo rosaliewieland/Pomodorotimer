@@ -21,7 +21,7 @@ export default function Home() {
 
       
         <div className="center-box">
-          <h1>Welcome!</h1>
+          <h1>Pomodoro</h1>
         </div>
   
     
